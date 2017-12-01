@@ -7,6 +7,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").hide();
              $(".restaurantes-bares").hide();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#nav-home").click(function(){
@@ -17,6 +19,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").hide();
              $(".restaurantes-bares").hide();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#dropdown-turismo").click(function(){
@@ -27,6 +31,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").show();
              $(".restaurantes-bares").hide();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#pontosTuristicos").click(function(){
@@ -37,6 +43,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").show();
              $(".restaurantes-bares").hide();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#dropdown-restaurantes").click(function(){
@@ -47,6 +55,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").hide();
              $(".restaurantes-bares").show();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#card-restaurantes").click(function(){
@@ -57,6 +67,8 @@ $(document).ready(function(){
             $(".pontos-turisticos").hide();
              $(".restaurantes-bares").show();
               $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
     });
 
     $("#dropdown-cinemas").click(function(){
@@ -67,5 +79,31 @@ $(document).ready(function(){
             $(".pontos-turisticos").hide();
              $(".restaurantes-bares").hide();
               $(".cinemas").show();
+               $(".pizzarias").hide();
+                $(".bares").hide();
+    });
+
+    $("#dropdown-pizzarias").click(function(){
+        $(".header").hide();
+         $(".text-center").hide();
+          $(".container").hide();
+           $(".about").hide();
+            $(".pontos-turisticos").hide();
+             $(".restaurantes-bares").hide();
+              $(".cinemas").hide();
+               $(".pizzarias").show();
+                $(".bares").hide();
+    });
+
+    $("#dropdown-bares").click(function(){
+        $(".header").hide();
+         $(".text-center").hide();
+          $(".container").hide();
+           $(".about").hide();
+            $(".pontos-turisticos").hide();
+             $(".restaurantes-bares").hide();
+              $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").show();
     });
 });

@@ -372,7 +372,14 @@ p {
 
 .pizzarias {
   width: 1524px;
-  height: 2000px;
+  height: 1990px;
+  margin: 150px auto;
+  display: none;
+}
+
+.bares {
+  width: 1524px;
+  height: 1990px;
   margin: 150px auto;
   display: none;
 }
