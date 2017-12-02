@@ -9,6 +9,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#nav-home").click(function(){
@@ -21,6 +22,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#dropdown-turismo").click(function(){
@@ -33,6 +35,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#pontosTuristicos").click(function(){
@@ -45,6 +48,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#dropdown-restaurantes").click(function(){
@@ -57,6 +61,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#card-restaurantes").click(function(){
@@ -69,6 +74,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#dropdown-cinemas").click(function(){
@@ -81,6 +87,7 @@ $(document).ready(function(){
               $(".cinemas").show();
                $(".pizzarias").hide();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#dropdown-pizzarias").click(function(){
@@ -93,6 +100,7 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").show();
                 $(".bares").hide();
+                 $(".lancherias").hide();
     });
 
     $("#dropdown-bares").click(function(){
@@ -105,5 +113,19 @@ $(document).ready(function(){
               $(".cinemas").hide();
                $(".pizzarias").hide();
                 $(".bares").show();
+                 $(".lancherias").hide();
+    });
+
+    $("#dropdown-lancherias").click(function(){
+        $(".header").hide();
+         $(".text-center").hide();
+          $(".container").hide();
+           $(".about").hide();
+            $(".pontos-turisticos").hide();
+             $(".restaurantes-bares").hide();
+              $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
+                 $(".lancherias").show();
     });
 });
