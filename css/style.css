@@ -54,6 +54,14 @@ p {
  }
 }
 
+@media screen and (max-width: 540px) {
+  .card {
+  float: left;
+  border: none;
+  margin-left: 110px;
+ }
+}
+
 .card-text {
   font-family: Azkia;
   font-size: 2.50rem;
@@ -152,6 +160,12 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .container {
+    height: 830px;
+  }
+}
+
 .footer {
   height: 80px;
   width: 100%;
@@ -161,13 +175,6 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-  .footer {
-    margin-top: 0px;
-    height: 50px;
-  }
-}
-
-@media screen and (max-width: 340px) {
   .footer {
     margin-top: 0px;
     height: 50px;
@@ -188,6 +195,12 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .inside-logo {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .inside-logo {
     width: 30%;
   }
@@ -272,6 +285,13 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .footer-text-title {
+    margin: 7px 0px 0px 15px;
+    font-size: 1.0rem;
+  }
+}
+
 .text-center {
   min-height: 150px;
   max-height: 350px;
@@ -289,6 +309,14 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .text-center {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .text-center {
     width: 150px;
     height: 150px;
@@ -322,6 +350,14 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .intro {
+    font-size: 1.0rem;
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .about {
   height: 700px;
   width: 1000px;
@@ -342,6 +378,15 @@ p {
     height: 715px;
     width: 250px;
     margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .about {
+    height: 715px;
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 0;
   }
 }
 
@@ -369,6 +414,14 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .about-page {
+    height: 715px;
+    width: 250px;
+    font-size: 1.0rem;
+  }
+}
+
 .about-say {
   font-size: 1.0rem;
   text-align: left;
@@ -381,6 +434,12 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .about-say {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .about-say {
     font-size: 0.5rem;
   }
@@ -401,6 +460,13 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .pontos-turisticos {
+    height: 13410px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .pontos-turisticos {
     height: 13410px;
     width: 100%;
@@ -446,7 +512,14 @@ p {
 
 @media screen and (max-width: 340px) {
   .bg-video {
-    height: 300px
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .bg-video {
+    height: 300px;
+    width: 540px;
   }
 }
 
@@ -468,6 +541,13 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .header {
+    height: 300px;
+    width: 540px;
+  }
+}
+
 .restaurantes-bares {
   width: 1524px;
   height: 3350px;
@@ -483,6 +563,13 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .restaurantes-bares {
+    height: 13410px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .restaurantes-bares {
     height: 13410px;
     width: 100%;
@@ -510,6 +597,13 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .cinemas {
+    height: 1000px;
+    width: 100%;
+  }
+}
+
 .card-img-top-cineflix {
   height: 470px;
 }
@@ -521,6 +615,12 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .card-img-top-cineflix {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .card-img-top-cineflix {
     height: 240px;
   }
@@ -542,6 +642,12 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .card-img-top-cineart {
+    height: 240px;
+  }
+}
+
 #card-cinema {
   border: 1px solid #E0E0E0;
   height: 660px;
@@ -556,6 +662,14 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  #card-cinema {
+    width: 340px!important;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
   #card-cinema {
     width: 340px!important;
     height: 450px;
@@ -584,6 +698,13 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .pizzarias {
+    height: 7960px;
+    width: 100%;
+  }
+}
+
 .bares {
   width: 1524px;
   height: 1990px;
@@ -605,6 +726,13 @@ p {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .bares {
+    height: 7960px;
+    width: 100%;
+  }
+}
+
 .lancherias {
   width: 1524px;
   height: 1990px;
@@ -620,6 +748,13 @@ p {
 }
 
 @media screen and (max-width: 340px) {
+  .lancherias {
+    height: 7960px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .lancherias {
     height: 7960px;
     width: 100%;
