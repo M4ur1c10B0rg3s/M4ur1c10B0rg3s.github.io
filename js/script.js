@@ -128,4 +128,17 @@ $(document).ready(function(){
                 $(".bares").hide();
                  $(".lancherias").show();
     });
+
+    $("#card-cinemas").click(function(){
+        $(".header").hide();
+         $(".text-center").hide();
+          $(".container").hide();
+           $(".about").hide();
+            $(".pontos-turisticos").hide();
+             $(".restaurantes-bares").hide();
+              $(".cinemas").hide();
+               $(".pizzarias").hide();
+                $(".bares").hide();
+                 $(".cinemas").show();
+    });
 });
