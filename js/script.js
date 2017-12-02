@@ -141,4 +141,4 @@ $(document).ready(function(){
                 $(".bares").hide();
                  $(".cinemas").show();
     });
-});
+  });
