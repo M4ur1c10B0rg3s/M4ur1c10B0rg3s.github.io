@@ -40,7 +40,7 @@ p {
   float: left;
   border: none;
   margin-right: 60px;
-  height: 700px;
+  height: 430px;
   width: 100%;
 }
 
@@ -447,7 +447,7 @@ p {
 
 .pontos-turisticos {
   width: 1524px;
-  height: 3700px;
+  height: 2350px;
   margin: 50px auto;
   display: none;
 }
@@ -548,7 +548,7 @@ p {
 
 .restaurantes-bares {
   width: 1524px;
-  height: 3700px;
+  height: 2350px;
   margin: 50px auto;
   display: none;
 }
@@ -677,7 +677,7 @@ p {
 
 .pizzarias {
   width: 1524px;
-  height: 1990px;
+  height: 1390px;
   margin: 50px auto;
   display: none;
 }
@@ -705,7 +705,7 @@ p {
 
 .bares {
   width: 1524px;
-  height: 1990px;
+  height: 1390px;
   margin: 50px auto;
   display: none;
 }
@@ -733,7 +733,7 @@ p {
 
 .lancherias {
   width: 1524px;
-  height: 1990px;
+  height: 1390px;
   margin: 50px auto;
   display: none;
 }
